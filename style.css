@@ -1,0 +1,137 @@
+:root{
+    
+    --azul_claro: #21b2eb;
+    --azul_escuro: #0003b6;
+
+    --verde-claro: #caffbf;
+    --verde-escuro: #3087c0;
+
+}
+
+body{
+
+    background-color: var(--verde-claro);
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-title{
+
+    color: var(--azul_escuro);
+}
+
+.navbar{
+
+    background-color: var(--azul_escuro);
+}
+
+.navbar .nav-link, .navbar .navbar-brand{
+
+    color: var(--verde-claro);
+    font-weight: 500;
+}
+
+.navbar .nav-link:hover{
+
+    color: var(--azul_claro);
+   
+}
+
+.navbar-toggler-icon{
+
+    background-color: black;
+}
+
+
+.hero{
+
+    background-image: url(fundo.jpg);
+    color: var(--verde-claro);
+    padding: 5rem 0;
+}
+
+.hero .btn{
+
+    background-color: var(--azul_escuro);
+    color: var(--azul_claro);
+    border: 1px solid black;
+}
+
+.hero .btn:hover{
+
+    background-color: var(--verde-claro);
+    color: var(--azul_escuro);
+    border: 1px solid var(--azul_escuro);
+}
+
+
+.card{
+
+    background-color: #fff;
+    color: black;
+    border: 2px solid var(--azul_escuro);
+}
+
+.card:hover{
+
+    background-color: var(--azul_escuro);
+    color: var(--verde-claro);
+    border: 2px solid var(--verde-claro);
+
+}
+
+.card .btn{
+
+    background-color: var(--azul_escuro);
+    color: #fff;
+}
+
+.card .btn:hover{
+
+    background-color: var(--verde-claro);
+    color: var(--azul_escuro);
+}
+
+.accordion-button{
+
+    background-color: var(--azul_claro);
+    color: black;
+}
+
+.accordion-button:hover{
+
+    background-color: var(--azul_escuro);
+    color: var(--verde-claro);
+}
+
+#contato{
+
+color: var(--azul_escuro);
+}
+
+#contato .form-control{
+
+    border: 1px solid var(--azul_escuro);
+    background-color: #fff;
+    color: black;
+}
+
+#contato .btn{
+
+    background-color: var(--azul_escuro);
+    color: var(--verde-claro);
+    border: none;
+}
+
+#contato .btn:hover{
+
+    background-color: var(--azul_claro);
+    color: var(--azul_escuro);
+}
+
+footer{
+
+    background-image: url(fundo.jpg);
+    color: var(--verde-claro);
+    font-size: large;
+}
